@@ -2,7 +2,7 @@
 
 ## Push Files into GitHub
 
-#### Step#1.0: Git Initialization
+#### Step #1: Git Initialization
 	:~$ git init
 	// Initialized empty Git repository in ~PATH/.git/
 
@@ -10,7 +10,7 @@
 	:~$ git init (If we retype it)
 	// Reinitialized existing Git repository in ~PATH/.git/
 
-#### Step#3.0: Add files/folders in .git (One-by-one)
+#### Step #2: Add files/folders in .git (One-by-one)
 	:~$ git add a.txt b.sh c.py Deep Vision Machine NLP
 
 	Step#3.1: Add files/folders in .git (All together)
@@ -20,21 +20,22 @@
 	Step#3.2: Remove files/folders in .git (One-by-one)
 	:~$ git rm --cached a.txt b.sh c.py Deep Vision Machine NLP
 
-####  Step#4.0: Check Current Status
+####  Step #3: Check Current Status
 	:~$ git status
 	// We can monitor current condition of files/folders.
 
-####  Step#5.0: Git Commit
+####  Step #4: Git Commit
 	:~$ git commit -m 'Write Something'
 
-####  Step#6.0: Access Remote GitHub
+####  Step #5: Access Remote GitHub
 	:~$ git remote add origin https://github.com/mrzResearchArena/Git-VCS.git
 	
 	Step#6.1: Fatal Error (Remote GitHub)
 	:~$ git remote rm origin
 
-####  Step#7.0: Push files/folders in GitHub Remotely
+####  Step #6: Push files/folders in GitHub Remotely
 	:~$ git push -u origin master --force
+
 
 --------------------------------------------------------------------------------
 Most Frequent Usage:
