@@ -72,9 +72,10 @@ rafsanjani@mrz:~$ git remote rm origin
 rafsanjani@mrz:~$ git push -u origin master --force
 ```
 
-----------------------------------------------------------------------------------
-Frequent Usages:
+&nbsp;
+&nbsp;
 
+## Frequent Usages:
 ```console
 rafsanjani@mrz:~$ git add *
 ```
