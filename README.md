@@ -74,7 +74,16 @@ rafsanjani@mrz:~$ git push -u origin master --force
 
 ----------------------------------------------------------------------------------
 Frequent Usages:
-1. git add *
-2. git commit -m 'New Changes'
-3. git status
-4. git push -u origin master
+
+1. ```console
+rafsanjani@mrz:~$ git add *
+```
+```console
+rafsanjani@mrz:~$ git commit -m 'New Changes'
+```
+```console
+rafsanjani@mrz:~$ git status
+```
+```console
+rafsanjani@mrz:~$ push -u origin master 
+```
