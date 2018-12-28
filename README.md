@@ -9,8 +9,7 @@ rafsanjani@mrz:~$ git init
 
 **Note:** Initialized empty Git repository in ~PATH/.git/
 
-###### Step #1.1: Git Reinitialization
-
+##### Step #1.1: Git Reinitialization
 ```console
 rafsanjani@mrz:~$ git init
 ```
