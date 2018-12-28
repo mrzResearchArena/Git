@@ -2,16 +2,32 @@
 
 ## Push Files into GitHub
 
-#### Step #1: Git Initialization
-	:~$ git init
-	// Initialized empty Git repository in ~PATH/.git/
+#### Step 2: Generate a socket
+```console
+rafsanjani@mrz:~$ screen -S anySocketName
+```
 
-     Step#1.1: Git Reinitialization
-	:~$ git init (If we retype it)
-	// Reinitialized existing Git repository in ~PATH/.git/
+
+#### Step #1: Git Initialization
+	:~$ 	// 
+
+```console
+rafsanjani@mrz:~$ git init
+```
+
+**Note:** Initialized empty Git repository in `~PATH/.git/'
+
+###### Step #1.1: Git Reinitialization
+
+```console
+rafsanjani@mrz:~$ git init
+```
+**Note:** If we retype it! Reinitialized existing Git repository in `~PATH/.git/'
+
 
 #### Step #2: Add files/folders in .git (One-by-one)
-	:~$ git add a.txt b.sh c.py Deep Vision Machine NLP
+
+:~$ git add a.txt b.sh c.py Deep Vision Machine NLP
 
 	Step#3.1: Add files/folders in .git (All together)
 	:~$ git add *
