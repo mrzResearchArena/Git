@@ -75,7 +75,7 @@ rafsanjani@mrz:~$ git push -u origin master --force
 &nbsp;
 &nbsp;
 
-## Frequent Usages:
+## Most Frequent Uses:
 ```console
 rafsanjani@mrz:~$ git add *
 ```
