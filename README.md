@@ -17,7 +17,7 @@ Note: If we retype it! Reinitialized existing Git repository in ~PATH/.git/
 &nbsp;
 &nbsp;
 
-#### Step #2: Adding File(s) and Folder(s) into Git
+#### Step #2: Adding File(s), and Folder(s) into Git
 
 ##### Step #2.1: Adding One-by-One
 
