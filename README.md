@@ -1,60 +1,79 @@
-# Git-GitHub
+# Git and GitHub
 
-## Push Files into GitHub
-
-#### Step 2: Generate a socket
-```console
-rafsanjani@mrz:~$ screen -S anySocketName
-```
-
+## Process Push Files into GitHub
 
 #### Step #1: Git Initialization
-	:~$ 	// 
-
 ```console
 rafsanjani@mrz:~$ git init
 ```
 
-**Note:** Initialized empty Git repository in `~PATH/.git/'
+**Note:** Initialized empty Git repository in ~PATH/.git/
 
 ###### Step #1.1: Git Reinitialization
 
 ```console
 rafsanjani@mrz:~$ git init
 ```
-**Note:** If we retype it! Reinitialized existing Git repository in `~PATH/.git/'
+**Note:** If we retype it! Reinitialized existing Git repository in ~PATH/.git/
 
+#### Step #2: Adding File(s) into Git
 
-#### Step #2: Add files/folders in .git (One-by-one)
+##### Step #2.1: Adding One-by-One
 
-:~$ git add a.txt b.sh c.py Deep Vision Machine NLP
+```console
+rafsanjani@mrz:~$ git add anyName.txt anyName.sh anyName.py DeepLearning MachineLearning Bioinformatics NLP
+```
 
-	Step#3.1: Add files/folders in .git (All together)
-	:~$ git add *
-	// We can add all files/folders at a time.
+##### Step #2.2: Adding All Together
 
-	Step#3.2: Remove files/folders in .git (One-by-one)
-	:~$ git rm --cached a.txt b.sh c.py Deep Vision Machine NLP
+```console
+rafsanjani@mrz:~$ git add *
+```
+**Note:** We can add all file(s), and folder(s) at a time!
 
-####  Step #3: Check Current Status
-	:~$ git status
-	// We can monitor current condition of files/folders.
+#### Step #3: Remove File(s), or Folder(s) from Git
 
-####  Step #4: Git Commit
-	:~$ git commit -m 'Write Something'
+##### Step #3.1: Remove One-by-one
 
-####  Step #5: Access Remote GitHub
-	:~$ git remote add origin https://github.com/mrzResearchArena/Git-VCS.git
-	
-	Step#6.1: Fatal Error (Remote GitHub)
-	:~$ git remote rm origin
+```console
+rafsanjani@mrz:~$ git add rm --cached anyName.txt anyName.sh anyName.py DeepLearning MachineLearning Bioinformatics NLP
+```
 
-####  Step #6: Push files/folders in GitHub Remotely
-	:~$ git push -u origin master --force
+##### Step #3.2: Remove All Together
+```console
+rafsanjani@mrz:~$ git add rm --cached *
+```
 
+####  Step #4: Check Current Status
+```console
+rafsanjani@mrz:~$ git status
+```
+**Note:** We can monitor current condition of file(s), or folder(s)!
 
---------------------------------------------------------------------------------
-Most Frequent Usage:
+####  Step #5: Git Commit
+```console
+rafsanjani@mrz:~$ git commit -m 'Write Something'
+```
+
+####  Step #6: Prepare to Send ( Push ) Information to GitHub
+
+##### Step #6.1: Trying to access remotely GitHub Repository
+```console
+rafsanjani@mrz:~$ git remote add origin https://github.com/anyUserName/anyName.git
+```
+
+##### Step #6.2: Fix Fatal Error when trying to access remotely GitHub Repository
+```console
+rafsanjani@mrz:~$ git remote rm origin
+```
+
+####  Step #7: Send ( Push ) Information to GitHub
+```console
+rafsanjani@mrz:~$ git push -u origin master --force
+```
+
+----------------------------------------------------------------------------------
+Frequent Usages:
 1. git add *
 2. git commit -m 'New Changes'
 3. git status
