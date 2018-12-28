@@ -6,14 +6,13 @@
 ```console
 rafsanjani@mrz:~$ git init
 ```
-
-**Note:** Initialized empty Git repository in ~PATH/.git/
+Note: Initialized empty Git repository in ~PATH/.git/
 
 ##### Step #1.1: Git Reinitialization
 ```console
 rafsanjani@mrz:~$ git init
 ```
-**Note:** If we retype it! Reinitialized existing Git repository in ~PATH/.git/
+Note: If we retype it! Reinitialized existing Git repository in ~PATH/.git/
 
 &nbsp;
 &nbsp;
@@ -31,7 +30,7 @@ rafsanjani@mrz:~$ git add anyName.txt anyName.sh anyName.py DeepLearning Machine
 ```console
 rafsanjani@mrz:~$ git add *
 ```
-**Note:** We can add all file(s), and folder(s) at a time!
+Note: We can add all file(s), and folder(s) at a time!
 
 &nbsp;
 &nbsp;
@@ -48,7 +47,6 @@ rafsanjani@mrz:~$ git add rm --cached anyName.txt anyName.sh anyName.py DeepLear
 ```console
 rafsanjani@mrz:~$ git add rm --cached *
 ```
-
 &nbsp;
 &nbsp;
 
@@ -56,7 +54,7 @@ rafsanjani@mrz:~$ git add rm --cached *
 ```console
 rafsanjani@mrz:~$ git status
 ```
-**Note:** We can monitor current condition of file(s), or folder(s)!
+Note: We can monitor current condition of file(s), or folder(s)!
 
 &nbsp;
 &nbsp;
