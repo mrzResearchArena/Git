@@ -18,7 +18,7 @@ rafsanjani@mrz:~$ git init
 &nbsp;
 &nbsp;
 
-#### Step #2: Adding File(s) into Git
+#### Step #2: Adding File(s) and Folder(s) into Git
 
 ##### Step #2.1: Adding One-by-One
 
