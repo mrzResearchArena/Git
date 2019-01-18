@@ -92,6 +92,9 @@ rafsanjani@mrz:~$ git push -u origin master --force
 
 ## Most Frequent Uses:
 ```console
+rafsanjani@mrz:~$ git init
+```
+```console
 rafsanjani@mrz:~$ git add *
 ```
 ```console
