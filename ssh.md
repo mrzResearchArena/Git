@@ -9,7 +9,7 @@ user@machine:~$ ssh-keygen               # Note: In "/home/user/.ssh" location t
 &nbsp;
 
 
-#### Step #3: Fixed the SSH Key Error
+#### Step #2: Fixed the SSH Key Error
 ```console
 user@machine:~$ ssh-add ~/.ssh/id_rsa    # Note: Fixed the fatal error when "git clone".
 ```
@@ -18,7 +18,7 @@ user@machine:~$ ssh-add ~/.ssh/id_rsa    # Note: Fixed the fatal error when "git
 &nbsp;
 &nbsp;
 
-#### Step #2: Set Key to GitHub
+#### Step #3: Set Key to GitHub Repo
 Setting (right side) --> SSH and GPG keys (left side) --> Then add the `id_rsa.pub` information into the box.
 
 &nbsp;
