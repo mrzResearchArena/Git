@@ -2,10 +2,18 @@
 
 #### Step #1: Generate SSH Key
 ```console
-user@machine:~$ ssh-keygen               # Note: In `/home/user/.ssh` location there will be at least two files {id_rsa, id_rsa.pub}.
+user@machine:~$ ssh-keygen               # Note: In "/home/user/.ssh" location there will be at least two files {id_rsa, id_rsa.pub}.
+```
 
+&nbsp;
+&nbsp;
+
+
+#### Step #3: Fixed the SSH Key Error
+```console
 user@machine:~$ ssh-add ~/.ssh/id_rsa    # Note: Fixed the fatal error when "git clone".
 ```
+
 
 &nbsp;
 &nbsp;
