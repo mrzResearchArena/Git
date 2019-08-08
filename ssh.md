@@ -1,5 +1,8 @@
 ## SSH Key Generator for the Username and Password
 
+&nbsp;
+&nbsp;
+
 #### Step #1: Generate SSH Key
 ```console
 user@machine:~$ ssh-keygen    # Note: In "/home/user/.ssh" location there will be at least two files {id_rsa, id_rsa.pub}.
