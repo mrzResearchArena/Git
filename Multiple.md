@@ -2,10 +2,8 @@
 
 #### Step #1: Clone a Project from the GitHub Repo (Local PC <-- GitHub Repo)
 ```console
-user@machine:~$ git clone git@github.com:username/project.git
+user@machine:~$ git clone git@github.com:username/project.git    # Note: Initialized in very first time for a particular project. 
 ```
-Note: Initialized in very first time for a particular project.
-
 
 &nbsp;
 &nbsp;
@@ -13,19 +11,16 @@ Note: Initialized in very first time for a particular project.
 
 ##### Step #2: Push to the GitHub Repo (Local PC --> GitHub Repo)
 ```console
-user@machine:~$ git push -u orgin master
+user@machine:~$ git push -u orgin master    # Note: Merge with the project
 ```
-Note: Merge with the project
 
 &nbsp;
 &nbsp;
 
 ##### Step #3: Pull from the GitHub Repo (Local PC <-- GitHub Repo)
 ```console
-user@machine:~$ git pull
+user@machine:~$ git pull    # Note: This is will act `git clone`; but, `git pull` ensure the upgraded GitHub Repo.
 ```
-Note: This is will act `git clone`; but, `git pull` ensure the upgraded GitHub Repo.
-
 &nbsp;
 &nbsp;
 &nbsp;
