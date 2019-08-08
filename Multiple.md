@@ -19,7 +19,7 @@ user@machine:~$ git push -u orgin master    # Note: Merge with the project
 
 ##### Step #3: Pull from the GitHub Repo (Local PC <-- GitHub Repo)
 ```console
-user@machine:~$ git pull    # Note: This is will act `git clone`; but, `git pull` ensure the upgraded GitHub Repo.
+user@machine:~$ git pull    # Note: This is will act "git clone"; but, "git pull" ensure the upgraded GitHub Repo.
 ```
 &nbsp;
 &nbsp;
