@@ -8,7 +8,7 @@ user@machine:~$ ssh-keygen    #Note: In `/home/user/.ssh` location there will be
 &nbsp;
 &nbsp;
 
-##### Step #2: Set Key to GitHub
+#### Step #2: Set Key to GitHub
 Setting (right side) --> SSH and GPG keys (left side) --> Then add the `id_rsa.pub` information into the box.
 
 &nbsp;
