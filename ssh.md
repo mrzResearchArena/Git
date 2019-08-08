@@ -2,14 +2,11 @@
 
 #### Step #1: Generate SSH Key
 ```console
-user@machine:~$ ssh-keygen
+user@machine:~$ ssh-keygen    #Note: In `/home/user/.ssh` location there will be at least two files {id_rsa, id_rsa.pub}.
 ```
-Note: In `/home/user/.ssh` location there will be at least two files {id_rsa, id_rsa.pub}.
-
 
 &nbsp;
 &nbsp;
-
 
 ##### Step #2: Set Key to GitHub
 Setting (right side) --> SSH and GPG keys (left side) --> Then add the `id_rsa.pub` information into the box.
