@@ -1,4 +1,4 @@
-## SSH Key Generator for the Username and Password
+## Set Username and Password by generating SSH Key
 
 &nbsp;
 &nbsp;
