@@ -3,7 +3,7 @@
 &nbsp;
 &nbsp;
 
-#### Step #1: Git Initialization
+#### Step #1: Git initialization
 ```console
 user@machine:~$ git init    # Note: Initialized empty Git repository in ~PATH/.git/
 ```
@@ -11,7 +11,7 @@ user@machine:~$ git init    # Note: Initialized empty Git repository in ~PATH/.g
 &nbsp;
 &nbsp;
 
-#### Step #2: Adding File(s), and Folder(s) into Git
+#### Step #2: Adding files, and directories into Git
 ```console
 user@machine:~$ git add anyName.txt anyName.sh anyName.py DeepLearning MachineLearning Bioinformatics NLP     # Note: Adding One-by-One
 user@machine:~$ git add *    # Note: Or, we can use "git add ."; we can add all {files, directories} at the same times.
@@ -20,7 +20,7 @@ user@machine:~$ git add *    # Note: Or, we can use "git add ."; we can add all 
 &nbsp;
 &nbsp;
 
-#### Step #3: Remove File(s), or Folder(s) from Git
+#### Step #3: Remove files, and directories from Git
 ```console
 user@machine:~$ git add rm --cached anyName.txt anyName.sh anyName.py DeepLearning MachineLearning Bioinformatics NLP    # Note: Remove One-by-one
 user@machine:~$ git add rm --cached *    # Note: Remove all Together
@@ -29,7 +29,7 @@ user@machine:~$ git add rm --cached *    # Note: Remove all Together
 &nbsp;
 &nbsp;
 
-####  Step #4: Check Current Status
+####  Step #4: Check current status
 ```console
 user@machine:~$ git status    # Note: We can monitor current condition of files and directories.
 ```
@@ -37,7 +37,7 @@ user@machine:~$ git status    # Note: We can monitor current condition of files 
 &nbsp;
 &nbsp;
 
-####  Step #5: Git Commit
+####  Step #5: Git commit
 ```console
 user@machine:~$ git commit -m 'Write Something' # Note: Save the files and directories.
 ```
@@ -47,20 +47,15 @@ user@machine:~$ git commit -m 'Write Something' # Note: Save the files and direc
 
 ####  Step #6: Prepare to Send ( Push ) Information to GitHub
 
-##### Step #6.1: Trying to access remotely GitHub Repository
 ```console
-user@machine:~$ git remote add origin https://github.com/anyUserName/anyName.git
-```
-
-##### Step #6.2: Fix Fatal Error when trying to access remotely GitHub Repository
-```console
-user@machine:~$ git remote rm origin
+user@machine:~$ git remote add origin https://github.com/anyUserName/anyName.git    # Trying to access remotely GitHub repository
+user@machine:~$ git remote rm origin    # Fix the fatal err when trying to access remotely GitHub repository
 ```
 
 &nbsp;
 &nbsp;
 
-####  Step #7: Send ( Push ) Information to GitHub
+####  Step #7: Push information to GitHub (Local PC --> GitHub)
 ```console
 user@machine:~$ git push -u origin master --force # Note: Dangerious Commands, remote all existances and add new.
 ```
