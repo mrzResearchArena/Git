@@ -1,6 +1,6 @@
 ## Multiple users remotely collaboration
 
-#### Step #1: Clone a project from the GitHub repo (Local PC <-- GitHub repo)
+##### Step #1: Clone a project from the GitHub repo (Local PC <-- GitHub repo)
 ```console
 user@machine:~$ git clone git@github.com:username/project.git    # Note: Initialized in very first time for a particular project. 
 ```
