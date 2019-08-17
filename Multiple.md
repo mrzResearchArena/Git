@@ -1,4 +1,4 @@
-## Multiple Users Remotely Collaboration
+## Multiple users remotely collaboration
 
 #### Step #1: Clone a project from the GitHub repo (Local PC <-- GitHub repo)
 ```console
