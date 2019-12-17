@@ -26,7 +26,7 @@ Setting (right side) --> SSH and GPG keys (left side) --> Then add the `id_rsa.p
 &nbsp;
 &nbsp;
 
-##### Step #4: Directly Set the Username and Password
+##### Alternative Way: Directly Set the Username and Password
 ```console
 user@machine:~$ git config --global user.name "your username"
 user@machine:~$ git config --global user.password "your password"'
