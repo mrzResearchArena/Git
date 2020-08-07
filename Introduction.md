@@ -1,14 +1,12 @@
 ## Introduction
 
 &nbsp;
-&nbsp;
 
 #### Step #1: Git initialization
 ```console
 user@machine:~$ git init    # Note: Initialized empty Git repository in ~PATH/.git/
 ```
 
-&nbsp;
 &nbsp;
 
 #### Step #2: Adding files, and directories into Git
@@ -18,7 +16,6 @@ user@machine:~$ git add *    # Note: Or, we can use "git add ."; we can add all 
 ```
 
 &nbsp;
-&nbsp;
 
 #### Step #3: Remove files, and directories from Git
 ```console
@@ -27,7 +24,6 @@ user@machine:~$ git add rm --cached *    # Note: Remove all Together
 ```
 
 &nbsp;
-&nbsp;
 
 ####  Step #4: Check current status
 ```console
@@ -35,14 +31,12 @@ user@machine:~$ git status    # Note: We can monitor current condition of files 
 ```
 
 &nbsp;
-&nbsp;
 
 ####  Step #5: Git commit
 ```console
 user@machine:~$ git commit -m 'Write Something' # Note: Save the files and directories.
 ```
 
-&nbsp;
 &nbsp;
 
 ####  Step #6: Prepare to Send ( Push ) Information to GitHub
@@ -53,9 +47,16 @@ user@machine:~$ git remote rm origin    # Fix the fatal err when trying to acces
 ```
 
 &nbsp;
-&nbsp;
 
 ####  Step #7: Push information to GitHub (Local PC --> GitHub)
 ```console
 user@machine:~$ git push -u origin master --force # Note: Dangerious Commands, remote all existances and add new.
+```
+
+&nbsp;
+
+####  Step #7: Rename
+```console
+user@machine:~$ git mv <oldFileName> <newFileName>
+user@machine:~$ git mv anyName.fasta anyName.fasta
 ```
