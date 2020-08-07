@@ -39,4 +39,4 @@ user@machine:~$ cat ~/.gitconfig    # Ensure the setup
 &nbsp;
 
 Acknowledgement:
-1. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who helps me a lot.
+1. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
