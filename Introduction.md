@@ -59,4 +59,5 @@ user@machine:~$ git push -u origin master --force # Note: Dangerious Commands, r
 ```console
 user@machine:~$ git mv <oldFileName> <newFileName>
 user@machine:~$ git mv anyName.fasta anyName.fasta
+user@machine:~$ git commit --amend -m 'Message'
 ```
