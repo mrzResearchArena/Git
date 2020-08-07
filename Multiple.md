@@ -21,4 +21,4 @@ user@machine:~$ git push -u orgin master    # Note: Merge with the project
 &nbsp;
 
 Acknowledgement:
-1. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who helps me a lot.
+1. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
