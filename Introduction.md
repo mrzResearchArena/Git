@@ -75,3 +75,4 @@ user@machine:~$ git commit --message='Track Changes'
     user@machine:~$ git add fg12.py # (Optional)
     user@machine:~$ git commit --message='We renamed the file (f11.py --> fg12.py)'
     ```
+- **Note:** Reference: https://www.patrick-wied.at/blog/rename-files-and-folders-with-git
