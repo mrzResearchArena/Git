@@ -57,7 +57,7 @@ user@machine:~$ git push -u origin master --force # Note: Dangerious Commands, r
 
 ####  Step #7: Rename
 ```console
-user@machine:~$ git mv <oldFileName> <newFileName>
-user@machine:~$ git mv anyName.fasta anyName.fasta
-user@machine:~$ git commit --amend -m 'Message'
+user@machine:~$ git mv <OLD> <NEW>
+user@machine:~$ git add <NEW> # (Optional)
+user@machine:~$ git commit --message='Track Changes'
 ```
