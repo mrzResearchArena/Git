@@ -62,16 +62,15 @@ user@machine:~$ git add <NEW> # (Optional)
 user@machine:~$ git commit --message='Track Changes'
 ```
 - #####  Step #8.1: Rename and Replace with Same File
-  ###### Step #1:
+  ###### Step #1: Move, Add, Commit
   ```console
   user@machine:~$ git mv f11.py fg12.py
   user@machine:~$ git add fg12.py # (Optional)
   user@machine:~$ git commit --message='We renamed the file (f11.py --> fg12.py)'
   ```
-  ###### Step #2:
-  Replace the 'fg12.py' with 'fg12.py'
+  ###### Step #2: Replace the 'fg12.py' with 'fg12.py'
   
-  ###### Step #3:
+  ###### Step #3: Add, Commit
   ```console
   user@machine:~$ git add fg12.py # (Optional)
   user@machine:~$ git commit --message='We renamed the file (f11.py --> fg12.py)'
