@@ -1,10 +1,10 @@
-1. #### See all the Configaration:
+#### 1. See all the Configaration:
 ```console
 user@machine:~$ cat ~/.gitconfig
 user@machine:~$ git config --list
 ```
 
-2. #### Set Editor for Commit:
+#### 2. Set Editor for Commit:
 ```console
 user@machine:~$ git config --global core.editor 'vi'
 user@machine:~$ git config --global core.editor 'vim'    
