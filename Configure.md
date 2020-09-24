@@ -4,6 +4,8 @@ user@machine:~$ cat ~/.gitconfig
 user@machine:~$ git config --list
 ```
 
+&nbsp;
+
 #### 2. Set Editor for Commit:
 ```console
 user@machine:~$ git config --global core.editor 'vi'
