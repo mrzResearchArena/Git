@@ -16,4 +16,4 @@ user@machine:~$ git --version        # 2.29.x --> the latest version :)
 ```
 
 ##### References:
---> 1. [Download Git for Linux](https://git-scm.com/download/linux)
+> 1. [Download Git for Linux](https://git-scm.com/download/linux)
