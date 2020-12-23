@@ -1,4 +1,4 @@
-### Set Password and Username:
+### Set Environment: Password, Username, Utilities:
 
 &nbsp;
 
@@ -23,10 +23,16 @@ Setting (right side) --> SSH and GPG keys (left side) --> Then add the `id_rsa.p
 &nbsp;
 
 
-#### Step #3: Set the Username and Email
+#### Step #3: Set the Username and Email:
 ```console
 user@machine:~$ git config --global user.name 'your username'
 user@machine:~$ git config --global user.email 'your email'
+user@machine:~$ cat ~/.gitconfig    # Ensure the setup
+```
+
+#### Step #4: Set vim as a default editor:
+```console
+user@machine:~$ git config --global core.editor 'vim'
 user@machine:~$ cat ~/.gitconfig    # Ensure the setup
 ```
 
