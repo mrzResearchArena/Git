@@ -1,6 +1,5 @@
-### et Username and Password by Generating SSH Key:
+### Set Username and Password by Generating SSH Key:
 
-&nbsp;
 &nbsp;
 
 #### Step #1: Generate SSH Key
@@ -38,4 +37,4 @@ user@machine:~$ cat ~/.gitconfig    # Ensure the setup
 &nbsp;
 
 Acknowledgement:
->. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
+>1. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
