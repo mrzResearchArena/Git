@@ -1,13 +1,13 @@
-### Install the Latest Version
+### Install Git and Install the Latest Version
 
-##### Install:
+#### 1. Install:
 ```console
 user@machine:~$ git --version        # No install
 user@machine:~$ sudo apt install git # Install
 user@machine:~$ git --version        # 2.7.x
 ```
 
-##### Update the Version:
+#### 2. Update the Version:
 ```console
 user@machine:~$ sudo add-apt-repository ppa:git-core/ppa
 user@machine:~$ sudo apt update
