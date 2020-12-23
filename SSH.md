@@ -10,10 +10,10 @@ user@machine:~$ ssh-keygen    # Note: In "/home/user/.ssh" location there will b
 &nbsp;
 
 
-##### Step #1.1: Fixed the SSH Key Error (Optional):
-```console
-user@machine:~$ ssh-add ~/.ssh/id_rsa    # Note: Fixed the fatal error when "git clone".
-```
+- ##### Step #1.1: Fixed the SSH Key Error (Optional):
+  ```console
+  user@machine:~$ ssh-add ~/.ssh/id_rsa    # Note: Fixed the fatal error when "git clone".
+  ```
 
 &nbsp;
 
