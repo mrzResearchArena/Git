@@ -16,7 +16,7 @@ user@machine:~$ git config --global core.editor 'nano'   # dafault
 
 &nbsp;
 
-#### 3. Set Alias:
+#### 3. Set Alias and Terminal Modification for Branches:
 ```
 alias gs='git status'
 alias gc='git commit'
@@ -24,13 +24,7 @@ alias gco='git checkout'
 alias gl='git log --oneline'
 alias gb='git branch'
 alias ga='git add .'
-```
-- Run: source ~/.myGit
 
-&nbsp;
-
-#### 4. Terminal Modification for Branches:
-```
 # Git branch in prompt.
 
 parse_git_branch() {
@@ -39,7 +33,6 @@ parse_git_branch() {
 
 export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
-
-Run: source ~/.bash_profile
+- Run: source ~/.myGit
 
 &nbsp;
