@@ -12,4 +12,4 @@ user@machine:~$ git config --global core.editor 'vim'    # love it!
 user@machine:~$ git config --global core.editor 'vi'     # ignore it!
 user@machine:~$ git config --global core.editor 'nano'   # dafault
 ```
-Install vim: [download/user guides](https://github.com/mrzResearchArena/IDE/blob/master/vim.md)
+- Install vim: [download/user guides](https://github.com/mrzResearchArena/IDE/blob/master/vim.md)
