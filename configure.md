@@ -13,3 +13,33 @@ user@machine:~$ git config --global core.editor 'vi'     # ignore it!
 user@machine:~$ git config --global core.editor 'nano'   # dafault
 ```
 - Install vim: [download/user guides](https://github.com/mrzResearchArena/IDE/blob/master/vim.md)
+
+&nbsp;
+
+#### 3. Set Alias:
+```
+alias gs='git status'
+alias gc='git commit'
+alias gco='git checkout'
+alias gl='git log --oneline'
+alias gb='git branch'
+alias ga='git add .'
+```
+- Run: source ~/.myGit
+
+&nbsp;
+
+#### 4. Terminal Modification for Branches:
+```
+# Git branch in prompt.
+
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+```
+
+Run: source ~/.bash_profile
+
+&nbsp;
