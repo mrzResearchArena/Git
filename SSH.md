@@ -30,12 +30,6 @@ user@machine:~$ git config --global user.email 'your email'
 user@machine:~$ cat ~/.gitconfig    # Ensure the setup
 ```
 
-#### Step #4: Set vim as a default editor:
-```console
-user@machine:~$ git config --global core.editor 'vim'
-user@machine:~$ cat ~/.gitconfig    # Ensure the setup
-```
-
 &nbsp;
 &nbsp;
 
