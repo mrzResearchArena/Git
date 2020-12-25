@@ -8,7 +8,7 @@ user@machine:~$ git config --list
 
 #### 2. Set Editor for Commit:
 ```console
-user@machine:~$ git config --global core.editor 'vi'
-user@machine:~$ git config --global core.editor 'vim'    
+user@machine:~$ git config --global core.editor 'vim'    # love it!
+user@machine:~$ git config --global core.editor 'vi'     # ignore it!
 user@machine:~$ git config --global core.editor 'nano'   # dafault
 ```
