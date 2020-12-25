@@ -12,7 +12,7 @@ user@machine:~$ git pull                                         # Note: This is
 
 ##### Step #2: Push to the GitHub repo (Local PC --> GitHub repo)
 ```console
-user@machine:~$ git push -u orgin master    # Note: Merge with the project
+user@machine:~$ git push orgin master    # Note: Merge with the project
 ```
 
 &nbsp;
@@ -21,4 +21,4 @@ user@machine:~$ git push -u orgin master    # Note: Merge with the project
 &nbsp;
 
 Acknowledgement:
-1. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
+> [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
