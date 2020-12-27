@@ -27,7 +27,8 @@ Setting (right side) --> SSH and GPG keys (left side) --> Then add the `id_rsa.p
 ```console
 user@machine:~$ git config --global user.name 'your username'
 user@machine:~$ git config --global user.email 'your email'
-user@machine:~$ cat ~/.gitconfig   # or, git config --list # Ensure the setup
+user@machine:~$ cat ~/.gitconfig   # Ensure the setup
+user@machine:~$ git config --list  # Ensure the setup (Optional)
 ```
 
 &nbsp;
