@@ -1,7 +1,7 @@
 #### 1. See all the Configaration:
 ```console
 user@machine:~$ cat ~/.gitconfig
-user@machine:~$ git config --list
+user@machine:~$ git config --list # (Optional)
 ```
 
 &nbsp;
