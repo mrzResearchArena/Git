@@ -1,4 +1,6 @@
-### Install GitHub Desktop (Linux/Ubuntu)
+### Install GitHub Desktop (Linux/Ubuntu):
+
+&nbsp;
 
 #### Step 1: Go to the [website](https://aur.archlinux.org/packages/github-desktop-bin/)
 #### Step 2: Find the **Sources** and download `*.deb` file
@@ -10,5 +12,8 @@
 ```console
 user@machine:~$ sudo apt install ./anyName.dev
 ```
+
+&nbsp;
+&nbsp;
 
 **Note:** GitHub Desktop does not have official support by GitHub [[Source-code](https://github.com/desktop), [Official Download](https://desktop.github.com/)].
