@@ -5,4 +5,5 @@
 #### 3. [Configuration](https://github.com/mrzResearchArena/Git-and-GitHub/blob/master/configure.md)
 #### 4. [Introduction to Git](https://github.com/mrzResearchArena/Git-and-GitHub/blob/master/introduction.md)
 #### 5. [Multiple Users Remotely Collaboration](https://github.com/mrzResearchArena/Git-and-GitHub/blob/master/multiple.md)
+#### 6. [Install GitHub Desktop (Linux/Ubuntu)](https://github.com/mrzResearchArena/Git/blob/master/GitHub-Desktop.md)
 
