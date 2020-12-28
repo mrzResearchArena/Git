@@ -16,4 +16,4 @@ user@machine:~$ sudo apt install ./anyName.deb
 &nbsp;
 &nbsp;
 
-**Note:** GitHub Desktop does not have official support by GitHub [[Source-code](https://github.com/desktop), [Official Download](https://desktop.github.com/)].
+**Note:** GitHub Desktop does not have official support by GitHub [[Source-code](https://github.com/desktop), [Official Download](https://desktop.github.com/)]. However, it is an open-source project.
