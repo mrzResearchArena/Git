@@ -34,5 +34,5 @@ user@machine:~$ git config --list  # Ensure the setup (Optional)
 &nbsp;
 
 **References:**
-1. [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
+1. GitHub Official Documentation [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
 2. [Mohammad Ashikuzzaman](https://github.com/ashikuzzaman-ar/), who teaches me the concept.
